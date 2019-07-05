@@ -1,7 +1,5 @@
 #include "sum.h"
 
-int main(){
-	int r = 0;
-for (int i;i<=r;i++) r+=i;
-
+int sum(){
+	return n*(n+1)/2;
 } 

@@ -1,10 +1,11 @@
-#include <stdio.h>
 #include "sum.h"
+#include <stdio.h>
 
 int main(){
 
 	int n;
 	scanf("%d",&n);
-	int s= sum(n);
+	int s = sum(n);
 	printf("sum = %d\n",s);
 }
+
